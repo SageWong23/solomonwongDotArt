@@ -55,7 +55,8 @@
                         <h5 class="card-title">Character Illustrations</h5>
                         <p class="card-text">A collection of character illustrations, featuring works that range from
                             simple portraits to fully realised splash art pieces.</p>
-                        <button type="button" class="btn btn-outline-secondary px-4 gap-3">View</button>
+                        <a href="character-illustrations"><button type="button"
+                                class="btn btn-outline-secondary px-4 gap-3">View</button></a>
                     </div>
                 </div>
             </div>
@@ -111,18 +112,18 @@
             hear from you! Please fill out the form below, and I’ll get back to you as soon as possible.</p>
         <form action="https://formspree.io/f/xqakrqee" method="POST">
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Name*</label>
-                <input type="text" class="form-control" aria-describedby="name" required>
+                <label for="contact-name" class="form-label">Name*</label>
+                <input id="contact-name" type="text" class="form-control" aria-describedby="name" required>
                 <div id="name" class="form-text">Please enter your name.</div>
             </div>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email*</label>
-                <input type="text" class="form-control" aria-describedby="email" required>
+                <label for="contact-email" class="form-label">Email*</label>
+                <input id="contact-email" type="text" class="form-control" aria-describedby="email" required>
                 <div id="email" class="form-text">Please enter your email.</div>
             </div>
             <div class="mb-3">
-                <label class="form-label">Message*</label>
-                <textarea class="form-control" rows="3" required></textarea>
+                <label for="contact-text" class="form-label">Message*</label>
+                <textarea id="contact-text" class="form-control" rows="3" required></textarea>
                 <div id="email" class="form-text">Please leave a message.</div>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
