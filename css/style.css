@@ -38,6 +38,9 @@ p {
   border-radius: 5px;
   border: 1px solid rgb(204, 204, 204);
 }
+.character-illustrations div a img {
+  border-radius: 5px;
+}
 /* Define a transition duration during page visits */
 html.is-changing .transition-fade {
   transition: opacity 0.25s;
