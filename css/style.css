@@ -22,7 +22,16 @@ p {
   max-width: 33.333%;
   float: left;
 }
-
+@media screen and (max-width: 768px) {
+  .grid-item {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .grid-item {
+    max-width: 100%;
+  }
+}
 .character-illustrations .grid-item img {
   display: block;
   max-width: 100%;
