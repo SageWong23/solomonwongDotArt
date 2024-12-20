@@ -32,14 +32,11 @@ p {
     max-width: 100%;
   }
 }
-.character-illustrations .grid-item img {
-  display: block;
-  max-width: 100%;
-  border-radius: 5px;
-  border: 1px solid rgb(204, 204, 204);
-}
 .character-illustrations div a img {
   border-radius: 5px;
+}
+.breadcrumb-item > a {
+  text-decoration: none;
 }
 /* Define a transition duration during page visits */
 html.is-changing .transition-fade {
