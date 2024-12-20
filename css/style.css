@@ -19,14 +19,10 @@ p {
   padding-bottom: calc(var(--bs-gutter-x) * 0.5);
 }
 .grid-item {
-  width: 33.333%;
-}
-
-.grid-item {
   float: left;
 }
 
-.grid-item img {
+.character-illustrations .grid-item img {
   display: block;
   max-width: 100%;
   border-radius: 5px;
