@@ -24,13 +24,13 @@
                             Portfolio
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="character-illustrations">Character Illustrations</a>
-                            <a class="dropdown-item" href="sketches-and-concept-art">Sketches and Concept Art</a>
-                            <a class="dropdown-item" href="banner-art">Banner Art</a>
+                            <a class="dropdown-item" href="/character-illustrations">Character Illustrations</a>
+                            <a class="dropdown-item" href="/sketches-and-concept-art">Sketches and Concept Art</a>
+                            <a class="dropdown-item" href="/banner-art">Banner Art</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="interior">Interior Projects and Renders</a>
+                            <a class="dropdown-item" href="/interior">Interior Projects and Renders</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="blender-animations">Blender Animations</a>
+                            <a class="dropdown-item" href="/blender-animations">Blender Animations</a>
                         </div>
                     </li>
                     <li><a href="#contact" class="nav-link px-2 link-body-emphasis">Contact</a></li>
@@ -43,21 +43,20 @@
         </div>
     </header>
 
-    <div class="px-4 py-5 my-5 text-center">
-        <h1 class="display-5 fw-bold text-body-emphasis">Solomon Wong</h1>
-        <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">I am a multi-disciplinary designer with a primary focus on creating
-                illustrations and interior spaces.</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4"
-                    onClick="document.getElementById('portfolio').scrollIntoView();">Portfolio</button>
-                <button type="button" class="btn btn-primary btn-lg px-4 gap-3"
-                    onClick="document.getElementById('contact').scrollIntoView();">Contact</button>
+    <main class="container py-5" id="swup" class="transition-fade">
+        <div class="px-4 py-5 my-5 text-center">
+            <h1 class="display-5 fw-bold text-body-emphasis">Solomon Wong</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">I am a multi-disciplinary designer with a primary focus on creating
+                    illustrations and interior spaces.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4"
+                        onClick="document.getElementById('portfolio').scrollIntoView();">Portfolio</button>
+                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3"
+                        onClick="document.getElementById('contact').scrollIntoView();">Contact</button>
+                </div>
             </div>
         </div>
-    </div>
-
-    <main class="container py-5">
         <h1>Portfolio</h1>
         <hr id="portfolio" class="my-5">
 
@@ -162,6 +161,10 @@
     </footer>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+    <script src="https://unpkg.com/swup@4"></script>
+    <script>
+        const swup = new Swup();
+    </script>
 </body>
 
 </html>
