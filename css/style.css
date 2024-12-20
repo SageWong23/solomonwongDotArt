@@ -19,6 +19,7 @@ p {
   padding-bottom: calc(var(--bs-gutter-x) * 0.5);
 }
 .grid-item {
+  max-width: 33.333%;
   float: left;
 }
 
