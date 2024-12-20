@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/bootstrap.bundle.js" defer></script>
     <script src="js/lightbox.js" defer></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js" defer></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js" defer></script>
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -180,11 +183,10 @@
     </footer>
     <script src="https://unpkg.com/swup@4"></script>
     <script>
-        const swup = new Swup();
+        const swup = new Swup({
+            plugins: [new SwupHeadPlugin()]
+        });
     </script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
-    <script src="js/script.js"></script>
 
 </body>
 
