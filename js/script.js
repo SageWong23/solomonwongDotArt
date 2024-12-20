@@ -5,10 +5,11 @@ var msnry = new Masonry(grid, {
   itemSelector: ".grid-item",
   percentPosition: true,
 });
-
-imagesLoaded(grid).on("progress", function () {
-  // layout Masonry after each image loads
-  msnry.layout();
+swup.hooks.on("page:view", () => {
+  imagesLoaded(grid).on("progress", function () {
+    // layout Masonry after each image loads
+    msnry.layout();
+  });
 });
 
 document.addEventListener("DOMContentLoaded", (event) => {
