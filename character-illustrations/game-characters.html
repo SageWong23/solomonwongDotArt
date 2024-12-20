@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solomon Wong | Character Illustrations</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/bootstrap.bundle.js" defer></script>
-    <script src="js/lightbox.js" defer></script>
-    <script src="js/script.js" defer></script>
+    <title>Solomon Wong | Character Illustrations | Game Characters</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/bootstrap.bundle.js" defer></script>
+    <script src="../js/lightbox.js" defer></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js" defer></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js" defer></script>
+    <script src="../js/script.js" defer></script>
 </head>
 
 <body>
+
     <header id="top" class="p-3 mb-3 border-bottom">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -44,55 +47,61 @@
     </header>
 
     <main class="container py-5 transition-fade" id="swup">
-        <h1>Character Illustrations</h1>
+        <h1>Character Illustrations - Game Characters</h1>
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Character Illustrations</li>
+                <li class="breadcrumb-item"><a href="/character-illustrations">Character Illustrations</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Game Character Illustrations</li>
             </ol>
         </nav>
         <div class="pt-3">
-            <a href="/"><button type="button" class="btn btn-outline-secondary btn-sm px-4">Back to Home</button>
+            <a href="/character-illustrations"><button type="button" class="btn btn-outline-secondary btn-sm px-4">Back
+                    to Character
+                    Illustrations</button>
             </a>
         </div>
         <hr class="my-5">
-        <div class="row character-illustrations">
-            <div class="col-lg-5 col-md-12">
-                <h2>Yura Rikudou - Illustrations</h2>
-                <p>Yura Rikudou, formerly a corporate VTuber under PRISM Project, has recently transitioned to being an
-                    independent content creator.</p>
-                <div class="pt-3">
-                    <a href="/character-illustrations/yura-rikudou"><button type="button"
-                            class="btn btn-outline-secondary btn-sm px-4">View More</button>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-7 col-md-12" data-no-swup>
-                <a href="img/character-illustrations/Yura-Rikudou-03.webp" data-toggle="lightbox">
-                    <img src="img/character-illustrations/Yura-Rikudou-03.webp" class="img-fluid">
+        <p>A collection of fan art featuring characters from popular games, including Azur Lane, Blue Archive and
+            Overwatch. I had fun bringing
+            these characters to life in my own style, experimenting with different looks and techniques.</p>
+        <div class="row masonary-grid character-illustrations" data-masonry='{"percentPosition": true }' data-no-swup>
+            <div class="grid-item">
+                <a href="../img/character-illustrations/Implacable.webp" data-toggle="lightbox" data-gallery="gallery"
+                    class="col-sm-4">
+                    <img src="../img/character-illustrations/Implacable.webp" class="img-fluid border">
                 </a>
             </div>
-        </div>
-        <hr class="my-5">
-        <div class="row character-illustrations">
-            <div class="col-lg-5 col-md-12">
-                <h2>Game Character Illustrations</h2>
-                <p>A collection of fan art featuring characters from popular games, including Azur Lane.</p>
-                <div class="pt-3">
-                    <a href="/character-illustrations/yura-rikudou"><button type="button"
-                            class="btn btn-outline-secondary btn-sm px-4">View More</button>
-                    </a>
-                </div>
+            <div class="grid-item">
+                <a href="../img/character-illustrations/Agir.webp" data-toggle="lightbox" data-gallery="gallery"
+                    class="col-sm-4">
+                    <img src="../img/character-illustrations/Agir.webp" class="img-fluid border">
+                </a>
             </div>
-            <div class="col-lg-7 col-md-12" data-no-swup>
-                <a href="img/character-illustrations/Implacable.webp" data-toggle="lightbox">
-                    <img src="img/character-illustrations/Implacable.webp   " class="img-fluid">
+            <div class="grid-item">
+                <a href="../img/character-illustrations/Regensburg.webp" data-toggle="lightbox" data-gallery="gallery"
+                    class="col-sm-4">
+                    <img src="../img/character-illustrations/Regensburg.webp" class="img-fluid border">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="../img/character-illustrations/Kiriko.webp" data-toggle="lightbox" data-gallery="gallery"
+                    class="col-sm-4">
+                    <img src="../img/character-illustrations/Kiriko.webp" class="img-fluid border">
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="../img/character-illustrations/Izayoi-Nonomi.webp" data-toggle="lightbox"
+                    data-gallery="gallery" class="col-sm-4">
+                    <img src="../img/character-illustrations/Izayoi-Nonomi.webp" class="img-fluid border">
                 </a>
             </div>
         </div>
         <hr class="my-5">
         <div class="pt-3">
-            <a href="/"><button type="button" class="btn btn-outline-secondary btn-sm px-4">Back to Home</button>
+            <a href="/character-illustrations"><button type="button" class="btn btn-outline-secondary btn-sm px-4">Back
+                    to Character
+                    Illustrations</button>
             </a>
         </div>
     </main>
@@ -105,6 +114,7 @@
         </ul>
         <p class="text-center text-body-secondary">Solomon Wong © 2024</p>
     </footer>
+
     <script src="https://unpkg.com/swup@4" data-swup-ignore-script></script>
     <script src="https://unpkg.com/@swup/scripts-plugin@2" data-swup-ignore-script></script>
     <script data-swup-ignore-script>
