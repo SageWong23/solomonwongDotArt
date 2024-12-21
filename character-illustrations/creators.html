@@ -14,7 +14,7 @@
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js" defer></script>
     <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js" defer></script>
     <script src="https://turboflower.art/js/script.js" defer></script>
-    <script src="https://turboflower.art/js/lightbox.js" defer data-keep-style></script>
+    <script src="https://turboflower.art/js/lightbox.js" defer></script>
 </head>
 </head>
 
@@ -36,7 +36,7 @@
         </div>
     </header>
 
-    <main class="container py-5 transition-fade" id="swup">
+    <main class="container py-5">
         <h1>Character Illustrations - Creators</h1>
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -176,23 +176,6 @@
         </ul>
         <p class="text-center text-body-secondary">Solomon Wong © 2024</p>
     </footer>
-
-    <script src="https://unpkg.com/swup@4" data-swup-ignore-script></script>
-    <script src="https://unpkg.com/@swup/head-plugin@2" data-swup-ignore-script></script>
-    <script src="https://unpkg.com/@swup/scripts-plugin@2" data-swup-ignore-script></script>
-    <script data-swup-ignore-script>
-        const swup = new Swup({
-            plugins: [new SwupHeadPlugin({
-                // Keep all orphaned tags
-                persistTags: true,
-                // Keep all tags that match a CSS selector
-                persistTags: 'style[data-keep-style]',
-                // Use a function to determine whether to keep a tag
-                persistTags: (tag) => tag.children.length > 1
-            })]
-
-        });
-    </script>
 
 </body>
 
