@@ -75,12 +75,9 @@ p {
     max-width: 100%;
   }
 }
-.character-illustrations div a img {
+.image-rounding div a img {
   border-radius: 5px;
 }
 .breadcrumb-item > a {
   text-decoration: none;
-}
-@view-transition {
-  navigation: auto;
 }
